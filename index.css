@@ -1,0 +1,285 @@
+.header{
+    background-image: url(./images/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+    margin-bottom: 0
+}
+.sec{
+    padding-bottom: 30%
+}
+.creatives{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 65px;
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    font-size: 35px;
+}
+.navbar-nav{
+    margin-left: 70%;
+}
+.second{
+    display: flex;
+}
+.seconda{
+    width: 50%;
+}
+.secondb{
+    width: 50%;
+}
+h1{
+    font-size: 75px;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.paragraph{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.learn{
+    padding-left: 10%
+}
+.third{
+    display: flex;
+}
+.thirda{
+    width: 50%;
+}
+.thirdb{
+    width: 50%;
+}
+.fourth{
+    display: flex;
+}
+.fourtha{
+    width: 50%;
+    background-image: url(./images/image-graphic-design.jpg)
+}
+.fourthb{
+    width: 50%;
+    background-image: url(./images/image-photography.jpg)
+}
+h3{
+    padding-top: 50%;
+    padding-left: 40%;
+}
+p{
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: 25%
+}
+.fifth{
+    text-align: center;
+    padding-top: 5%;
+}
+.emilypic{
+    border-radius: 50%;
+}
+.thomaspic{
+    border-radius: 50%;
+}
+.jenniepic{
+    border-radius: 50%;
+}
+.fifthflex{
+    display: flex;
+    padding-top: 5%;
+}
+.sixth{
+    display: flex;
+}
+.seventh{
+    padding-top: 5%;
+    background-color: aquamarine;
+    text-align: center;
+    height: 40vh;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.seventha{
+    padding-top: 2%;
+}
+.seventhb{
+    padding-top: 2%;
+}
+.fb{
+    padding-right: 5%;
+}
+.twt{
+    padding-right: 2%;
+}
+.pin{
+    padding-left: 5%;
+}
+.ig{
+    padding-right: 3%;
+}
+.about{
+    padding-right: 10%;
+}
+.project{
+    padding-left: 10%;
+}
+
+@media (max-width: 1200px){
+ .navbar-nav{
+     margin-left: 65%
+    }
+.h3{
+    padding-top: 50%
+    }
+ h1{
+    font-size: 45px;
+    padding-top: 10%;
+    padding-left: 10%;
+    }
+ .fourtha{
+    background-image: url(./image/image-graphic-design.jpg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.fourthb{
+    background-image: url(./image/image-photography.jpg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+h3{
+    padding-top: 70%;
+    padding-left: 30%;
+    }
+
+}
+@media(max-width: 800px){
+.header{
+    background-image: url(./images/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.creatives{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 25px;
+    color: white;
+    }
+h1{
+    font-size: 15px;
+
+    padding-left: 5%;
+    }
+.paragraph{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 12px;
+    }
+.learn{
+    padding-left: 5%;
+    font-size: 15px;
+    }    
+.secondbpic{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    background-image: url(./image/image-transform.jpg);
+}
+.thirdapic{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    background-image: url(./image/image-stand-out.jpg);
+}
+.fourtha{
+    background-image: url(./image/image-graphic-design.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.fourthb{
+    background-image: url(./image/image-photography.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+h3{
+    padding-top: 95%;
+    font-size: 20px;
+    padding-right: 5px;
+}
+p{
+    font-size: 12px;
+}
+.emilypic{
+    width: 90px;
+}
+.thomaspic{
+   width: 90px;
+}
+.jenniepic{
+   width: 90px;
+}
+}
+
+@media(max-width: 400px){
+    p{
+        font-size: 7px;
+    }
+.thomas{
+    padding-top: 15px;
+}
+.jennie{
+    padding-top: 15px;
+}
+.emily{
+    padding-top: 15px
+}
+}
+@media(max-width: 320px){
+    .header{
+        background-image: url(./images/image-header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+h3{
+font-size: 10px;
+}
+@media(max-width:300px){
+    .header{
+        background-image: url(./image/image-header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:50vh;
+        background-position: center;
+    }
+    .creatives{
+        text-align: center;
+        padding-top: 20%;
+        font-size: 25px;
+        color: white;
+    }
+    .navbar-brand{
+        color: white;
+        font-size: 25px;
+    }
+    .emilypic{
+        width: 50px;
+    }
+    .thomaspic{
+       width: 50px;
+    }
+    .jenniepic{
+       width: 50px;
+    }
+}
+}
+
